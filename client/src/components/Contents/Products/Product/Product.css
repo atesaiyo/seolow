@@ -1,0 +1,7 @@
+.border-product {
+  border: 5px solid rgb(255, 255, 255);
+}
+.product-fixed-height {
+  min-height: 350px;
+  height: 22vw;
+}

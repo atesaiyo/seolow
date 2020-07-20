@@ -1,0 +1,13 @@
+export const USER_WAS_SIGNIN = "USER_WAS_SIGNIN";
+export const USER_DATA = "USER_DATA";
+export const USER_WAS_SIGNOUT = "USER_WAS_SIGNOUT";
+
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const CREATE_PRODUCT = "CREATE_PRODUCT";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+
+export const SET_ORDERS = "SET_ORDERS";
+export const CREATE_ORDER = "CREATE_ORDER";
+export const UPDATE_ORDER = "UPDATE_ORDER";
+export const DELETE_ORDER = "DELETE_ORDER";

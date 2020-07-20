@@ -1,0 +1,258 @@
+@font-face {
+  font-family: ChakraPetch;
+  src: url(./font/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+* {
+  font-family: ChakraPetch;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+pre {
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+body {
+  background-color: white;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+[class*="col-"] {
+  /* border: 1px solid red; */
+  padding: 5px;
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-full {
+  display: flex;
+  justify-content: center;
+}
+.center-row {
+  display: flex;
+  align-items: center;
+}
+.center-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ul-no-style {
+  list-style: none;
+}
+.li-row {
+  float: left;
+}
+
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.text-red {
+  color: red;
+}
+.text-orange {
+  color: orange;
+}
+
+.border-4 {
+  border-radius: 4px;
+}
+.border-15 {
+  border-radius: 15px;
+}
+.border-10 {
+  border-radius: 10px;
+}
+.border-lb-2 {
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+.border-rb-2 {
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+.border-lt-2 {
+  border-left: 2px solid;
+  border-top: 2px solid;
+}
+.border-rt-2 {
+  border-right: 2px solid;
+  border-top: 2px solid;
+}
+.border-bottom-4 {
+  border-bottom: 4px solid;
+}
+.border-top-4 {
+  border-top: 4px solid;
+}
+.border-bottom-3 {
+  border-bottom: 3px solid;
+}
+.border-bottom-1 {
+  border-bottom: 1px solid;
+}
+.border-blue {
+  border-color: rgba(10, 239, 255, 0.7);
+}
+.border-orange {
+  border-color: orange;
+}
+.border-all-2-r {
+  border: 2px solid red;
+}
+
+.button-blue {
+  margin: 5px 0;
+  background-color: rgba(95, 74, 255, 0.7);
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+.button-red {
+  background-color: rgba(245, 46, 56, 0.7);
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 5px 0;
+}
+.button-green {
+  background-color: rgba(95, 244, 55, 0.7);
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 5px 0;
+}
+.button-orange {
+  background-color: rgba(250, 156, 5, 0.7);
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 5px 0;
+}
+.button-yellow {
+  background-color: rgba(235, 255, 56, 0.7);
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  margin: 5px 0;
+  border-radius: 12px;
+}
+.bg-666 {
+  background-color: #666;
+}
+.bg-ddd {
+  background-color: #eee;
+}
+.bg-alice {
+  background-color: aliceblue;
+}
+.bg-white {
+  background-color: white;
+}
+
+.img-fixed-width {
+  width: 100%;
+  height: auto;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+.margin-tb-5 {
+  margin: 5px 0;
+}
+.padding-20 {
+  padding: 20px;
+}
+
+.img-r {
+  border-radius: 5%;
+}
+
+.mid-dis {
+  min-height: inherit;
+}

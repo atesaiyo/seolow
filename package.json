@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server.js",
+  "scripts": {
+    "client": "npm run start --prefix client",
+    "server": "cls && nodemon ./server.js",
+    "start": "node ./server.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "client-install": "npm install --prefix client",
+    "app-install": "concurrently \"npm run client-install\" \"npm run install\"",
+    "client-build": "npm run build --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parse": "^0.1.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.3",
+    "puppeteer": "^5.2.0"
+  }
+}

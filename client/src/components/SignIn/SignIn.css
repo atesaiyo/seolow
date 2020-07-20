@@ -1,0 +1,27 @@
+#signin-outer {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(186, 186, 186, 0.3);
+}
+#signin-inner {
+  width: 500px;
+  height: 550px;
+  padding: 30px;
+  box-shadow: -10px 0 16px white, 10px 0 16px white, 0 -10px 16px white,
+    0 10px 16px white;
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+}
+#signin-inner button {
+  border-radius: 4px;
+  height: 32px;
+  background-color: lightgrey;
+  color: black;
+}
+#signin-inner input {
+  border-radius: 4px;
+  height: 32px;
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,40 @@
+.pdr-10 {
+  padding-right: 20px;
+}
+.pdl-5 {
+  padding-left: 5px;
+}
+
+#navbar-outer {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+#navbar-inner {
+  min-width: 920px;
+  position: relative;
+}
+#search-input {
+  border-radius: 3px;
+  width: 70%;
+  height: 32px;
+}
+
+#navbar-outer a {
+  color: #ffffff;
+}
+
+#homepage-name {
+  float: right;
+  margin-right: 10%;
+}
+#homepage-image {
+  position: absolute;
+  top: -55px;
+  left: -100px;
+  height: 170px;
+  z-index: -1;
+}

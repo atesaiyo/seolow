@@ -1,0 +1,21 @@
+#contents-outer {
+  width: 100%;
+  min-height: 85vh;
+  margin-top: 60px;
+}
+#contents-inner {
+  background-color: #ffffff;
+  min-width: 920px;
+  min-height: inherit;
+  padding: 10px;
+  margin: 30px 0 20px 0;
+  color: black;
+  opacity: 0.9;
+}
+
+#img-bg{
+  position: fixed;
+  z-index: -2;
+  width: 200%;
+  height: 200%;
+}
